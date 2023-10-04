@@ -1,7 +1,7 @@
 /* место для вашего кода */
 .header {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 2fr 1fr 2fr;
   grid-template-rows: repeat(1, auto);
   align-items: center;
   width: 100%;
@@ -50,6 +50,7 @@
   z-index: 0;
   width: 100%;
   max-width: 1440px;
+  margin: auto;
   padding: 0 50px;
   background: url('../images/cover.jpg') no-repeat center / cover;
 }
